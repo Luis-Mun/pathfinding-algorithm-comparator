@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets: never commit these
+.env
+*.pem
+*.key
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+*.egg-info/
+results/*.png
+!results/.gitkeep
